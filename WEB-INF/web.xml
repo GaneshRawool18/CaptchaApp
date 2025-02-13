@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+    version="3.1">
+    <servlet>
+        <servlet-name>VerifyCaptchaServlet</servlet-name>
+        <servlet-class>VerifyCaptchaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerifyCaptchaServlet</servlet-name>
+        <url-pattern>/VerifyCaptchaServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
